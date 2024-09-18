@@ -1,0 +1,92 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: pink;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.team {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.team-member {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    padding: 20px;
+    transition: box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.team-member:hover {
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.team-member img {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.team-member h3 {
+    font-size: 20px;
+    color: #333;
+    margin: 10px 0;
+}
+
+.team-member p {
+    font-size: 16px;
+    color: #555;
+}
+
+.btn-readmore {
+    text-decoration: none;
+    color: rgb(255, 130, 151);
+    font-weight: bold;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.section-heading {
+    display: block;
+    text-align: center;
+    background-color: #ffffff;
+    color: rgb(255, 130, 151);
+    padding: 20px;
+    margin: 20px auto;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: fit-content;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.section-heading:hover {
+    background-color: #e0e0e0;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
